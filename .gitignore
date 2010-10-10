@@ -1,0 +1,16 @@
+build/*
+*.pbxuser
+*.mode1v3
+*xcodeproj/project.xcworkspace
+*xcodeproj/xcuserdata
+*~
+
+.svn
+
+.DS_Store
+profile
+
+Resources/zh-Hans.lproj/*.xib
+Resources/zh-Hant.lproj/*.xib
+Resources-iPad/zh-Hans.lproj/*.xib
+Resources-iPad/zh-Hant.lproj/*.xib

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bunapi' target in the 'Bunapi' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
