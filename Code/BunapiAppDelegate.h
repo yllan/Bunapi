@@ -7,11 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface BunapiAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+	WebView *_webView;
 }
 
+@property (nonatomic, retain) IBOutlet WebView *webView;
 @property (assign) IBOutlet NSWindow *window;
 
 @end
+
